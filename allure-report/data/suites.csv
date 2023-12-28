@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Dec 26 12:18:39 IST 2023","Tue Dec 26 12:18:40 IST 2023","730","chromium","Geolocation.spec.ts","","","","Get Current Location with Notification Permission",""
+"passed","Tue Dec 26 11:53:12 IST 2023","Tue Dec 26 11:53:15 IST 2023","2617","chromium","AllureReport.spec.ts","","","","Example test",""
+"broken","Tue Dec 26 12:28:52 IST 2023","Tue Dec 26 12:29:23 IST 2023","30640","chromium","Geolocation.spec.ts","","","","Get Current Location",""
+"passed","Tue Dec 26 14:29:10 IST 2023","Tue Dec 26 14:29:14 IST 2023","4339","chromium","Hovers.spec.ts","","","","Hovers",""
+"broken","Tue Dec 26 12:47:48 IST 2023","Tue Dec 26 12:48:18 IST 2023","30635","chromium","Geolocation.spec.ts","","","","Geolocation",""
+"passed","Tue Dec 26 14:42:31 IST 2023","Tue Dec 26 14:42:43 IST 2023","12771","chromium","Geolocation.spec.ts","","","","Automate Geolocation",""

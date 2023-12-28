@@ -1,0 +1,8 @@
+Profile Report:
+----------------
+Gender: Female
+Age: 35
+Height: 190 cm
+Weight: 70 kg
+BMI: 19.39
+BMI Category: Normal weight

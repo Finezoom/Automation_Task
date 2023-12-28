@@ -1,0 +1,143 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\blues\\OneDrive\\Desktop\\Learn-Playwright\\playwright.config.ts",
+    "rootDir": "C:/Users/blues/OneDrive/Desktop/Learn-Playwright/tests/Automation_Test",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "C:\\Users\\blues\\OneDrive\\Desktop\\Learn-Playwright\\node_modules\\allure-playwright\\dist\\index.js",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/blues/OneDrive/Desktop/Learn-Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/blues/OneDrive/Desktop/Learn-Playwright/tests/Automation_Test",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.40.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "BMI_Calculator.spec.ts",
+      "file": "BMI_Calculator.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "BMI Cal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 228,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Profile Report:\n"
+                    },
+                    {
+                      "text": "----------------\n"
+                    },
+                    {
+                      "text": "Gender: male\n"
+                    },
+                    {
+                      "text": "Age: \u001b[33m24\u001b[39m\n"
+                    },
+                    {
+                      "text": "Height: \u001b[33m180\u001b[39m cm\n"
+                    },
+                    {
+                      "text": "Weight: \u001b[33m60\u001b[39m kg\n"
+                    },
+                    {
+                      "text": "BMI: 18.52\n"
+                    },
+                    {
+                      "text": "BMI Category: Normal weight\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-12-26T10:41:33.036Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "53a344899e237090cb89-6dc9f45f724c83cb323e",
+          "file": "BMI_Calculator.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2023-12-26T10:41:32.299Z",
+    "duration": 2371.4700000000003,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
