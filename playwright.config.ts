@@ -11,8 +11,8 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
 
-  testDir: 'tests/Report',
-
+  testDir: 'tests/FG_Platform',
+  timeout: 5 * 60 * 1000,
   /* Run tests in files in parallel */
   fullyParallel: true,
 
@@ -35,18 +35,18 @@ export default defineConfig({
    ],*/
 
   // Monocart Report
-   reporter: [
-     ['list'],
-     ['monocart-reporter', {
-       name: "My Test Report",
-       outputFile: './test-results/report.html'
-     }]
-   ], 
+  //  reporter: [
+  //    ['list'],
+  //    ['monocart-reporter', {
+  //      name: "My Test Report",
+  //      outputFile: './test-results/report.html'
+  //    }]
+  //  ], 
 
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    headless: true,
+    headless: false,
     //video: 'on',
     //permissions: ['geolocation','notification'],
 
